@@ -12,7 +12,7 @@ IndexFunction oIndexFn;
 
 float __fastcall AttributeFnHooked(void* thisptr, void*, int slot, Stickers::EStickerAttributeType attribute, float fl)
 {
-	C_BaseCombatWeapon* weapon = reinterpret_cast<C_BaseCombatWeapon*>((uintptr_t)thisptr - NetVars::CEconEntity::m_Item);
+	C_BaseCombatWeapon* weapon = reinterpret_cast<C_BaseCombatWeapon*>((uintptr_t)thisptr - NetVars::CEconEntity::m_GIDEIIW);
 
 	switch (attribute)
 	{
@@ -29,7 +29,7 @@ float __fastcall AttributeFnHooked(void* thisptr, void*, int slot, Stickers::ESt
 
 unsigned int __fastcall IndexFnHooked(void* thisptr, void*, int slot, Stickers::EStickerAttributeType attribute, unsigned fl)
 {
-	C_BaseCombatWeapon* weapon = reinterpret_cast<C_BaseCombatWeapon*>((uintptr_t)thisptr - NetVars::CEconEntity::m_Item);
+	C_BaseCombatWeapon* weapon = reinterpret_cast<C_BaseCombatWeapon*>((uintptr_t)thisptr - NetVars::CEconEntity::m_GIDEIIW);
 
 	if (weapon && attribute == Stickers::EStickerAttributeType::Index)
 	{

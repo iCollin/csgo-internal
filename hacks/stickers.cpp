@@ -1,3 +1,5 @@
+// credit namazso @ unknowncheats.me
+
 #include "stickers.h"
 
 #include "skinchanger.h"

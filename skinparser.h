@@ -1,5 +1,7 @@
 #pragma once
 
+// credit namazso @ unknowncheats.me
+
 #include <vector>
 
 #include "utilities.h"

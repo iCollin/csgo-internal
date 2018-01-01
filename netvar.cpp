@@ -246,7 +246,7 @@ void NetVars::Initialize()
 	NetVars::DT_CSGameRulesProxy::m_arrFeaturedGiftersGifts = NetVarManager::GetOffset(tables, "DT_CSGameRulesProxy", "m_arrFeaturedGiftersGifts");
 	NetVars::DT_CSGameRulesProxy::m_arrTournamentActiveCasterAccounts = NetVarManager::GetOffset(tables, "DT_CSGameRulesProxy", "m_arrTournamentActiveCasterAccounts");
 
-	NetVars::CEconEntity::m_Item = NetVarManager::GetOffset(tables, "DT_EconEntity", "m_Item") + 0xC;
+	NetVars::CEconEntity::m_GIDEIIW = NetVarManager::GetOffset(tables, "DT_EconEntity", "m_Item") + 0xC;
 	if (NetVars::CEconEntity::m_Item == 0xC)
 		Utilities::Error("CEconEntity->m_Item failed to find netvar.");
 }

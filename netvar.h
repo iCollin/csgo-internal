@@ -294,7 +294,7 @@ namespace NetVars
 
 	namespace CEconEntity
 	{
-		extern std::ptrdiff_t m_Item;
+		extern std::ptrdiff_t m_GIDEIIW;
 	}
 }
 
